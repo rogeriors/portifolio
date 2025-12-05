@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/imagens/fundo.svg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+    width: 100vw;
+}
+
+.esquerda {
+    display: inline-block;
+    background-color: white;
+    width: 40vw;
+    height: 80vh;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.direita {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.101);
+    width: 40vw;
+    height: 80vh;
+    border-radius: 0px 20px 20px 0px;
+    backdrop-filter: blur("30");
+}

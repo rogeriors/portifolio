@@ -1,0 +1,80 @@
+@charset "UFT-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    background-image: url("../imagens/background.webp");
+    
+    background-position: center;
+}
+
+.divPai {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.iphone {
+    justify-content: center;
+    align-items: center;
+    min-width: 250px;
+    position: relative;
+    margin-left: 230px;
+    margin-top: 130px;
+
+    img {
+        width: 450px;
+    }
+}
+
+.divIframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    
+
+    iframe {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 132px;
+        margin-left: 226px;
+        height: 573px;
+        max-width: 266px;
+        background-color: black;
+        overflow: hidden;
+        border-radius: 28px;
+    }
+}
+
+.menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90px;
+    height: 600px;
+    margin-top: 50px;
+    
+
+    img {
+        border-radius: 50%;
+        width: 60px;
+        margin-bottom: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.292);
+    }
+
+    img:hover {
+        width: 65px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.547);
+    }
+    
+}
