@@ -13,6 +13,30 @@ body {
     background-position: center;
 }
 
+#splash-screen {
+    position: fixed; /* Fixa a posição na tela */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    z-index: 100;            /* Garante que fique acima de todo o resto */
+    background-color: black;
+}
+
+#splash-screen img {
+    max-width: 50vw;
+    max-height: 50vh;
+    /* Adicione estilos para sua imagem, se necessário (ex: animacoes simples) */
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
 .divPai {
     display: flex;
     flex-direction: column;
