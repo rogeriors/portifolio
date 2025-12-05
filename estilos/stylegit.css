@@ -1,0 +1,51 @@
+   * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
+    .pai {
+        background-image: url("/imagens/iphone-classic-1umvtnpc9fiejh9l.png");
+        height: 573px;
+        max-width: 266px;
+        border-radius: 28px;
+    }
+
+    .meio {
+        background-color: #0D1117;
+        max-width: 266px;
+        display: block;
+        text-align: center;
+        padding-bottom: 5px;
+
+        a {
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            margin: 5px;
+        }
+
+        a:hover {
+            color: #003482;
+        }
+
+        .link2 {
+            padding-top: 5px;
+        }
+
+
+        .link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 40px;
+            width: 266px;
+            background-color: black;
+        
+        }
+    }
