@@ -4,7 +4,7 @@
         box-sizing: border-box;
     }
 
-    body::-webkit-scrollbar {
+::-webkit-scrollbar {
         display: none;
     }
 
@@ -27,23 +27,23 @@
             text-decoration: none;
             font-weight: bold;
             color: white;
-            margin: 5px;
+            width: 100vw;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         a:hover {
-            color: #003482;
+            color: with;
+            background-color: red;
         }
-
-        .link2 {
-            padding-top: 5px;
-        }
-
 
         .link {
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 40px;
+            height: 30px;
             width: 266px;
             background-color: black;
         

@@ -64,6 +64,7 @@ body {
     align-items: center;
     position: absolute;
     overflow: hidden;
+    
 
     iframe {
         display: flex;
@@ -80,16 +81,20 @@ body {
 }
 
 .menu {
-    display: block;
+
+    display: inline-flex;
+    justify-content: center;
     position: absolute;
     top: 0;
-    right: 0;
-    width: 90px;
-    height: 600px;
-    margin-top: 50px;
-    padding: 10px 0px 0px 10px;
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 220px;
+    
+    
 
     img {
+        margin: 5px;
         border-radius: 50%;
         width: 60px;
         margin-bottom: 10px;
