@@ -55,23 +55,15 @@ body {
     img {
         width: 450px;
     }
-}
-
-.divIframe {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    overflow: hidden;
 
     iframe {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 132px;
-        margin-left: 226px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 16px;
+        margin-left: 90px;
         height: 573px;
-        max-width: 266px;
+        width: 266px;
         background-color: black;
         overflow: hidden;
         border-radius: 28px;
