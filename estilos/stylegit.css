@@ -8,19 +8,42 @@
         display: none;
     }
 
+    .topo {
+        top: 0;
+        height: 30px;
+
+        img {
+            height: 10px;
+        }
+    }
+
+    #relogio {
+        display: inline-flex;
+        flex-direction: column;
+        padding: 10px 0px 8px 20px;
+        font-size: 0.8em;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 180px;
+    }
+
     .pai {
-        background-image: url("/imagens/iphone-classic-1umvtnpc9fiejh9l.png");
+        background-color: black;
         height: 573px;
         max-width: 266px;
         border-radius: 28px;
     }
 
     .meio {
-        background-color: #0D1117;
+        background-color: #000;
         max-width: 266px;
         display: block;
         text-align: center;
         padding-bottom: 5px;
+
+        img {
+            width: 266px;
+        }
 
         a {
             font-family: Arial, Helvetica, sans-serif;

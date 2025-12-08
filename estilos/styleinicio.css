@@ -6,7 +6,7 @@
         }
 
         .pai {
-            background-image: url("/imagens/iphone-classic-1umvtnpc9fiejh9l.png");
+            background-image: url("../imagens/iphone-classic-1umvtnpc9fiejh9l.png");
             height: 573px;
             max-width: 266px;
             border-radius: 28px;
@@ -38,11 +38,13 @@
 
         .icones {
             display: inline-block;
-            height: 75px;
+            height: 85px;
             width: 55px;
+            margin-bottom: 5px;
 
             img {
                 width: 55px;
+                height: 55px;
                 border-radius: 10px;
             }
 
@@ -51,7 +53,7 @@
                 color: white;
                 font-size: 0.7em;
                 text-align: center;
-                padding-top: 4px;
+                padding-top: 3px;
             }
 
             a {
